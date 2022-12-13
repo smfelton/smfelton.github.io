@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    <div style = "display: flex;">
+
+      <div style = "width:50%">
+      {{ content }}
+
+      <a href={{ page.paperfile }}>pdf</a>
+      <br>
+      {% if page.video1 %}
+        <a href={{ page.video1 }}>Video 1</a>
+        <br>
+      {% endif %}
+      {% if page.video2 %}
+        <a href={{ page.video2 }}>Video 2</a>
+        <br>
+      {% endif %}
+      {% if page.note1 %}
+        {{ page.note1 }}
+        <br>
+      {% endif %}
+      {% if page.note2 %}
+        {{ page.note2 }}
+        <br>
+      {% endif %}
+      {% if page.note3 %}
+        {{ page.note3 }}
+      {% endif %}
+      </div>
+
+      <div style = "width:5%">
+      </div>
+
+      <div style = "width:45%">
+      <img src={{ page.image1 }}
+style="width:100%; border:none; margin: auto; display: block;" />
+      <br>
+      {% if page.image2 %}
+      <img src={{ page.image2 }}
+style="width:100%; border:none; margin: auto; display: block;" />
+        <br>
+      {% endif %}
+      </div>
+    
+    </div>
+
+</article>
