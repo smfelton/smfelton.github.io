@@ -9,7 +9,6 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
-/_site
 /.jekyll-cache
 
 # Used by dotenv library to load environment variables.
