@@ -1,0 +1,8 @@
+## Unpublished Research Projects
+These are some other things I was working on, but never got to a publishable state.
+
+**Impact-Resistant Robots**
+
+**Wearable Machines**
+
+**Liquid Metal `Marble' Actuators**
