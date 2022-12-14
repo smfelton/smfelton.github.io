@@ -1,7 +1,7 @@
 ---
 layout: publication-page
 title:  "A Method For Building Self-Folding Machines"
-image1: "/images/Science-2014.jpg"
+image1: "/images/science-2014.jpg"
 video1: "/videos/Science-2014.mp4"
 paperfile: "/paperfiles/Felton_Science14.pdf"
 note1: <a href = "https://www.nytimes.com/2014/08/08/science/a-self-folding-robot-inspired-by-origami.html">New York Times</a>
