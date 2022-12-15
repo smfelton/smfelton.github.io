@@ -10,16 +10,16 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A site for my research" />
 <meta property="og:description" content="A site for my research" />
-<link rel="canonical" href="/projects.html" />
-<meta property="og:url" content="/projects.html" />
+<link rel="canonical" href="http://localhost:4000/projects.html" />
+<meta property="og:url" content="http://localhost:4000/projects.html" />
 <meta property="og:site_name" content="Sam’s Site" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Projects" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Sam Felton"},"description":"A site for my research","headline":"Projects","url":"/projects.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Sam Felton"},"description":"A site for my research","headline":"Projects","url":"http://localhost:4000/projects.html"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Sam&apos;s Site" /></head>
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sam&apos;s Site" /></head>
 <body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Sam&#39;s Site</a><nav class="site-nav">
@@ -32,7 +32,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/projects.html">Projects</a><a class="page-link" href="/publications.html">Publications</a><a class="page-link" href="/topics.html">Topics</a></div>
+        <div class="trigger"><a class="page-link" href="/projects.html">Projects</a><a class="page-link" href="/publications.html">Publications</a><a class="page-link" href="/research-topics.html">Research Topics</a><a class="page-link" href="/about/">Site Info</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -49,9 +49,9 @@
 <p>This section doesn’t cover every paper I wrote, but it does describe some of the major research projects I got to work on.</p>
 
 <p><strong>Self-Folding Machines</strong><br />
-As part of a larger effort to develop <a href="https://ppm.csail.mit.edu/">Printable Programmable Machines</a>, we developed and tested different ways to make structures and mechanisms to fold themselves from flat sheets.<br />
+As part of a larger effort to develop <a href="https://ppm.csail.mit.edu/">Printable Programmable Machines</a>, we developed and tested different ways to make structures and mechanisms that fold themselves from flat sheets.<br />
 <em>Shape Memory Composites</em><br />
-Shape memory polymers (SMPs) undergo a preprogrammed shape change (typically contraction) when heated to a certain temperature. <img src="/images/SM-2013-1.jpg" alt="self-folding" style="float: left;margin-right: 10px;margin-top: 7px;width: 150px" />Examples include shrink wrap and heat shrink tubing. By laminating sheets of SMP with structural layers and flexible circuit boards, we created <a href="/publications/SM-2013">low-profile actuators</a> that would fold the laminate into a 3D form. These could be activated by oven or heat lamp for uniform activation, or embedded resistive heaters to enable sequential folding. <img src="/images/science-2014.jpg" alt="self-folding" style="float: right;margin-left: 10px;margin-top: 7px;width: 150px" />At centimeter length scales we used paper as the substrate due to its light weight. At <a href="/publications/JMM-2015">millimeter length scales</a> we used aluminum (for uniform activation) or fiberglass laminate (for sequential activation) because it was stiffer and allowed for more precise fabrication methods. Using these techniques, we demonstrated a <a href="/publications/science-2014">variety</a> <a href="/publications/ICRA-2014a">of</a> <a href="/publications/IROS-2016">machines</a>.<br />
+Shape memory polymers (SMPs) undergo a preprogrammed shape change (typically contraction) when heated to a certain temperature. <img src="/images/SM-2013-1.jpg" alt="self-folding" style="float: left;margin-right: 10px;margin-top: 7px;width: 150px" />Examples include shrink wrap and heat shrink tubing. By laminating sheets of SMP with structural layers and flexible circuit boards, we created <a href="/publications/SM-2013">low-profile actuators</a> that would fold the laminate into a 3D form. These could be activated by oven or heat lamp for uniform activation, or embedded resistive heaters to enable sequential folding. <img src="/images/science-2014.jpg" alt="self-folding" style="float: right;margin-left: 10px;margin-top: 7px;width: 150px" />At centimeter length scales we used paper as the substrate due to its light weight. At <a href="/publications/JMM-2015">millimeter length scales</a> we used aluminum (for uniform activation) or fiberglass laminate (for sequential activation) because they were stiffer and allowed for more precise fabrication methods. Using these techniques, we demonstrated a <a href="/publications/science-2014">variety</a> <a href="/publications/ICRA-2014a">of</a> <a href="/publications/IROS-2016">machines</a>.<br />
 <em>Other actuation methods</em><br />
 <img src="/images/IROS-2017.jpg" alt="self-folding" style="float: right;margin-left: 10px;margin-top: 7px;width: 150px" />We also experimented with other methods of low-profile actuation. <a href="/publications/SMS-2019">Electrostatics</a> were faster and reversible, but were not well-suited for rigid structures. <a href="/publications/ICRA-2015">Pneumatics</a> were also relatively fast and reversible, and could be made inexpensively using the `pouch motor’ concept. These were effective for <a href="/publications/IROS-2017">meter-scale</a> <a href="/publications/RAL-2019">machines</a>.</p>
 
@@ -59,7 +59,16 @@ Shape memory polymers (SMPs) undergo a preprogrammed shape change (typically con
 The self-folding methods we had studied were slow, unreliable, and resulted in flimsy machines. <img src="/images/TRO-2021.jpg" alt="self-folding" style="float: left;margin-right: 10px;margin-top: 7px;width: 150px" />As an alternative, we explored the <a href="/publications/RAL-2018">dynamic behavior of origami structures</a>, particularly near the flat-unfolded state. We found that structures that were generally stiff and kinematically constrained became flexible when almost flat, and the fold direction of the hinges could be manipulated to create substantially different outputs based on the dynamic input. We <a href="/publications/PRL-2018">developed a model</a> to predict and control this behavior, and applied it to make a <a href="/publications/TRO-2021">robotic gripper</a> that could peform multiple types of grasps with a single actuated input.</p>
 
 <p><strong>Soft Robotic Grippers for Seafood Processing</strong><br />
-<img src="/images/paper-imgs/IDETC-2019a.png" alt="self-folding" style="float: right;margin-left: 10px;margin-top: 7px;width: 150px" />As part of a project for the <a href="https://arminstitute.org/">ARM Institute</a>, we developed a soft robotic gripper with an embedded sensor for sorting fish be feel. In seafood processing, younger fish are separated from older fish, and workers differentiate them by how soft the fish feels in their hands. We developed a <a href="/publications/IDETC-2019a">new fabrication method</a> to rapidly prototype durable pneumatic fingers. We then designed a <a href="/publications/RS-2021">hardness sensor</a> embedded in soft materials and gentle enough to probe the fish (or other soft object) without damaging it.</p>
+<img src="/images/paper-imgs/IDETC-2019a.png" alt="self-folding" style="float: right;margin-left: 10px;margin-top: 7px;width: 150px" />As part of a project for the <a href="https://arminstitute.org/">ARM Institute</a>, we developed a soft robotic gripper with a tactile sensor for sorting fish be feel. In seafood processing, younger fish are separated from older fish, and workers differentiate them by how soft the fish feels in their hands. We developed a <a href="/publications/IDETC-2019a">new fabrication method</a> to rapidly prototype durable pneumatic fingers. We then designed a <a href="/publications/RS-2021">hardness sensor</a> embedded in soft materials and gentle enough to probe the fish (or other soft object) without damaging it.</p>
+
+<h2 id="unpublished-research-projects">Unpublished Research Projects</h2>
+<p>I’ve had a lot of projects that, for various reasons, I never wrote up for peer review. Here are a few of the more interesting.</p>
+
+<p><strong><a href="/publications/impact-robots">High-Impact Robots</a></strong></p>
+
+<p><strong><a href="/publications/wearables">Haptic Fingers for Virtual Reality</a></strong></p>
+
+<p><strong><a href="/publications/soft-actuators">Soft and Flexible Actuators</a></strong></p>
 
   </div>
 

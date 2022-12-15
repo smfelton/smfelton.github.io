@@ -22,3 +22,12 @@ The self-folding methods we had studied were slow, unreliable, and resulted in f
 
 **Soft Robotic Grippers for Seafood Processing**  
 ![self-folding](/images/paper-imgs/IDETC-2019a.png){:style="float: right;margin-left: 10px;margin-top: 7px;width: 150px"}As part of a project for the [ARM Institute](https://arminstitute.org/), we developed a soft robotic gripper with a tactile sensor for sorting fish be feel. In seafood processing, younger fish are separated from older fish, and workers differentiate them by how soft the fish feels in their hands. We developed a [new fabrication method](/publications/IDETC-2019a) to rapidly prototype durable pneumatic fingers. We then designed a [hardness sensor](/publications/RS-2021) embedded in soft materials and gentle enough to probe the fish (or other soft object) without damaging it.
+
+## Unpublished Research Projects  
+I've had a lot of projects that, for various reasons, I never wrote up for peer review. Here are a few of the more interesting.
+
+**[High-Impact Robots](/publications/impact-robots)**
+
+**[Haptic Fingers for Virtual Reality](/publications/wearables)**
+
+**[Soft and Flexible Actuators](/publications/soft-actuators)**
