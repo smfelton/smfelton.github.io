@@ -28,6 +28,12 @@ I've had a lot of projects that, for various reasons, I never wrote up for peer 
 
 **[High-Impact Robots](/publications/impact-robots)**
 
+![Sphere Bot](/images/impact1.jpg){:style="float: right;margin-left: 10px;margin-top: 7px;width: 300px"}I took an interest in making robots that can survive impacts with rigid surfaces at terminal velocity, about 40 meters per second (95 miles per hour) depending on the shape. The first attempt was a baseball-sized, two-wheeled, spherical robot made from viscoelastic polymers that could survive collisions up to 20 meters per second. The next attempt was a five-kilogram, four-wheeled robot with embedded `breakaway joints' that survived collisions up to 14 meters per second.
+
 **[Haptic Fingers for Virtual Reality](/publications/wearables)**
 
+![Finger Brace](/images/wearables2.gif){:style="float: right;margin-left: 10px;margin-top: 7px;width: 300px"}While investigating translational opportunities for soft robotics in virtual reality applications, we prototyped a few active gloves (technically just fingers at this stage)I prototyped a few wearable devices to simulate tactile interactions in virtual environments, using pneumatics to mimic the normal pressure on fingertips and resistance of holding a rigid object. We experimented with pneumatic bellows and material jamming as actuators, and used soft strain sensors to measure finger displacement.
+
 **[Soft and Flexible Actuators](/publications/soft-actuators)**
+
+We explored two designs for soft/flexible actuators to be used in wearable machines or bio-inspired robots. The first was based on the concept of a liquid metal marble, and used the electrochemical interaction between eutectic Gallium Indium (eGaIn) and an ionic liquid to generate pressure and flow under an electric potential. The second was a series of voice coils in a flexible structure to generate linear motion.
