@@ -7,7 +7,7 @@ title: Projects
 
 ----------------------
 ## Published Research Projects  
-This section doesn't cover every paper I wrote, but it does describe some of the major research projects I got to work on.  
+These are some of the major research projects I got to work on. You can see a full list of my publications [here](/publications).  
 
 **Self-Folding Machines**  
 As part of a larger effort to develop [Printable Programmable Machines](https://ppm.csail.mit.edu/), we developed and tested different ways to make structures and mechanisms that fold themselves from flat sheets.  
@@ -28,7 +28,7 @@ I've had a lot of projects that, for various reasons, I never wrote up for peer 
 
 **[High-Impact Robots](/publications/impact-robots)**
 
-![Sphere Bot](/images/impact1.jpg){:style="float: right;margin-left: 10px;margin-top: 7px;width: 300px"}I took an interest in making robots that can survive impacts with rigid surfaces at terminal velocity, about 40 meters per second (95 miles per hour) depending on the shape. The first attempt was a baseball-sized, two-wheeled, spherical robot made from viscoelastic polymers that could survive collisions up to 20 meters per second. The next attempt was a five-kilogram, four-wheeled robot with embedded `breakaway joints' that survived collisions up to 14 meters per second.
+![Sphere Bot](/images/impact1.jpg){:style="float: right;margin-left: 10px;margin-top: 7px;width: 300px"}I took an interest in making robots that can survive high-speed impacts. The first attempt was a baseball-sized, two-wheeled, spherical robot made from viscoelastic polymers that could survive collisions up to 20 meters per second. The next attempt was a five-kilogram, four-wheeled robot with embedded `breakaway joints' that survived collisions up to 14 meters per second.
 
 **[Haptic Fingers for Virtual Reality](/publications/wearables)**
 
