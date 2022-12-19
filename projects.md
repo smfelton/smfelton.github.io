@@ -28,7 +28,7 @@ I've had a lot of projects that, for various reasons, I never wrote up for peer 
 
 **[High-Impact Robots](/publications/impact-robots)**
 
-![Sphere Bot](/images/impact1.jpg){:style="float: right;margin-left: 10px;margin-top: 7px;width: 300px"}I took an interest in making robots that can survive high-speed impacts. The first attempt was a baseball-sized, two-wheeled, spherical robot made from viscoelastic polymers that could survive collisions up to 20 meters per second. The next attempt was a five-kilogram, four-wheeled robot with embedded `breakaway joints' that survived collisions up to 14 meters per second.
+![Sphere Bot](/images/impact1.jpg){:style="float: right;margin-left: 10px;margin-top: 7px;width: 35%; min-width: 150px"}I took an interest in making robots that can survive high-speed impacts. The first attempt was a baseball-sized, two-wheeled, spherical robot made from viscoelastic polymers that could survive collisions up to 20 meters per second. The next attempt was a five-kilogram, four-wheeled robot with embedded `breakaway joints' that survived collisions up to 14 meters per second.
 
 **[Haptic Fingers for Virtual Reality](/publications/wearables)**
 
