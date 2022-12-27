@@ -12,4 +12,4 @@ I'm a robotics researcher and development engineer. My work is interdisciplinary
 
 I've used these concepts in a range of robotic applications, as well as non-robotic applications such as antennas, wearable machines, and medical imaging.
 
-I've worked in the [Harvard Microbotics Lab](https://www.micro.seas.harvard.edu/) and the [Wyss Institute](https://wyss.harvard.edu/), and directed my own lab at [Northeastern University](https://robotics.northeastern.edu/). My Erdős number is 3. I'm currently a robotics designer and systems engineer at a stealth startup, working on some unique challenges in robotic manipulation and material handling.
+I've worked in the [Harvard Microbotics Lab](https://www.micro.seas.harvard.edu/) and the [Wyss Institute](https://wyss.harvard.edu/), and directed my own lab at [Northeastern University](https://robotics.northeastern.edu/). I'm currently a robotics designer and systems engineer at a stealth startup, working on some unique challenges in robotic manipulation and material handling.
